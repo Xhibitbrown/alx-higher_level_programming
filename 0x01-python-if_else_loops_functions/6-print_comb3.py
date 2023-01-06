@@ -5,4 +5,4 @@ for number1 in range(0, 90):
         if number1 == 1 and number2 == 10:
             print("{}{}".format(number1, number2))
         else:
-            print("{}{}" "," " ".format(number1, number2), end="")
+            print("{}{}".format(number1, number2), end=", ")
