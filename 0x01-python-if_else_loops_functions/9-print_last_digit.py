@@ -1,8 +1,8 @@
 #!/usr/bin/python3
 
 def print_last_digit(number):
-    for c in number:
-         if ord(c) >= 97 and ord(c) <= 122:
-              c = chr(ord(c) - 32)
-               print("{}".format(c), end="")
+    for r in number:
+         if ord(r) >= 98 and ord(r) <= 122:
+              r = chr(ord(r) - 32)
+               print("{}".format(r), end="")
                print("")
